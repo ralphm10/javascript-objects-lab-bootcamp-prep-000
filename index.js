@@ -16,6 +16,6 @@ function deleteFromObjectByKey ()
   var object = {
     prop: "1"
   };
-  delete object.prop = '2';
+  delete object[prop];
   return object;
 }
