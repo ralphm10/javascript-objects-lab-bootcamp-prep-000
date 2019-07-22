@@ -11,7 +11,7 @@ function updateObjectWithKeyAndValue ()
   return object;
 }
 
-function velyUpdateObjectWithKeyAndValue ()
+function  ()
 {
   var object = {
     prop: "1"
