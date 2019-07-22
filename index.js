@@ -14,7 +14,7 @@ function updateObjectWithKeyAndValue ()
 function deleteFromObjectByKey (object,key)
 {
   const myobject = Object.assign ({}, object)
-  var object = {
+  delete myobject 
     prop: "1"
   };
   delete object[prop];
