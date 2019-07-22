@@ -17,5 +17,5 @@ function deleteFromObjectByKey ()
     prop: "1"
   };
   delete object[prop];
-  return object;
+  object;
 }
