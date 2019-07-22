@@ -11,7 +11,7 @@ function updateObjectWithKeyAndValue ()
   return object;
 }
 
-function deleteFromObjectByKey ()
+function deleteFromObjectByKey (object,key)
 {
   var object = {
     prop: "1"
