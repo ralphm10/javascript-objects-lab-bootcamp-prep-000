@@ -16,6 +16,6 @@ function destructivelyUpdateObjectWithKeyAndValue ()
   var object = {
     prop: "1"
   };
-  object.prop2 = '2';
+  object.prop = '2';
   return object;
 }
